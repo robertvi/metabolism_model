@@ -27,8 +27,8 @@ In this notation M represents a single monomer chemical building block, M<sub>2<
 In this reaction the cell converts one monomer and one dimer into a trimer. This reaction required a photo to provide the energy, which is stored in the new chemical bond created. Trimer therefore acts as an energy store for the cell.
 
 ### Energy Storage
-Here a single monomer is added to an existing polymer by consuming one trimer:
+Here a single monomer is added to an existing polymer by consuming one trimer, therefore the polymer becomes longer by one unit. Here we require n >= 3:
 
   M<sub>n</sub> + M<sub>3</sub> &rarr; M<sub>n+1</sub> + 2 M
 
-Why not consume one dimer instead of one trimer? In that case only one bond would be broken to split the dimer into two monomers, and one new bond created joining one monomer to the polymer. Therefore in crude terms the reaction would be energetically neutral, whereas we want to cell to be actively driving the reaction, otherwise the reverse reaction would be equally likely and the monomer would fall off again. When we break down the trimer we break two bonds in exchange for creating only one new bond, therefore overall we use up one bond's worth of energy in order to drive the reaction.
+Why not consume one dimer instead of one trimer? In that case one bond would be broken in spliting the dimer in exchange for one bond created joining one monomer to the polymer. Therefore the reaction would be energetically neutral, and the reverse reaction ought to be equally likely where the monomer falls off again. When we break down the trimer we break two bonds in exchange for creating one new bond, therefore overall we use up one bond's worth of energy in order to drive the reaction.
