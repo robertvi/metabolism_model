@@ -18,11 +18,17 @@ Cells consist of cytoplasm and internal organelles, all made up of polymers. Cel
 - cillia: allows the cell to actively move
 
 ### Photosynthesis Reaction
-In this reaction a cell capable of photosynthesis absorbs one photon and converts a dimer and monomer into a trimer:
+In this reaction occuring in the photosynthesis organelle one photon is absorbed and converts a dimer and a monomer into a trimer:
 
  M<sub>2</sub> + M + photon &rarr; M<sub>3</sub>
 
-In this notation M represents a single monomer chemical building block, M<sub>2</sub> means two monomers chemically bonded together (called a dimer) and M<sub>3</sub> represent three bonded together (you guessed it, a trimer). More generally a long chain on n monomers bonded together, called a polymer, would be shown as M<sub>n</sub>.
+In this notation M represents a single monomer chemical building block, M<sub>2</sub> means two monomers chemically bonded together (a dimer) and M<sub>3</sub> represent three bonded together (a trimer).
 
 In this reaction the cell converts one monomer and one dimer into a trimer. This reaction required a photo to provide the energy, which is stored in the new chemical bond created. Trimer therefore acts as an energy store for the cell.
 
+### Energy Storage
+Here a single monomer is added to an existing polymer by consuming one trimer:
+
+  M<sub>n</sub> + M<sub>3</sub> &rarr; M<sub>n+1</sub> + 2 M
+
+Why not consume one dimer instead of one trimer? In that case only one bond would be broken to split the dimer into two monomers, and one new bond created joining one monomer to the polymer. Therefore in crude terms the reaction would be energetically neutral, whereas we want to cell to be actively driving the reaction, otherwise the reverse reaction would be equally likely and the monomer would fall off again. When we break down the trimer we break two bonds in exchange for creating only one new bond, therefore overall we use up one bond's worth of energy in order to drive the reaction.
