@@ -11,9 +11,10 @@ Energy enters the system in the form of photons which cells capture and store in
 
 Cells consist of cytoplasm and internal organelles, all made up of polymers. Cells can specialise by investing a lot of resource into growing a particular organelle to be as large as possible. Organelles are:
 
-- cytoplasm: the basic "stuff" of the cell excluding the other organelles, where it's store on dimer and trimer are kept
-- photosynthesis: converts dimers into trimers by capturing photons and monomers 
+- cytoplasm (not really an organelle as such): the basic "stuff" of the cell excluding the other organelles, where it's store on dimer and trimer are kept
+- chloroplasts: converts dimers into trimers by capturing photons and monomers 
 - energy storage: contains long polymers which can be readily built up or broken down to store or release trimers
+- mitochondria: ??
 - cillia: allows the cell to actively move
 - connectors: allows the cell to connect its cytoplasm to a neighbouring cell's and actively push or pull cytoplasm through the connection
 
