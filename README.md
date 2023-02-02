@@ -11,11 +11,11 @@ Energy enters the system in the form of photons which cells capture and store in
 
 Cells consist of cytoplasm and internal organelles, all made up of polymers. Cells can specialise by investing a lot of resource into growing a particular organelle to be as large as possible. Organelles are:
 
-- cytoplasm: the basic "stuff" of the cell, within which the other organelles exist
-- photosynthesis: convert dimers into trimers by capturing photons and monomers 
-- energy storage: contain long polymers which can be readily built up or broken down to store or release trimers
-- nucleus: contains the genetic material, which must replicate each cell division
+- cytoplasm: the basic "stuff" of the cell excluding the other organelles, where it's store on dimer and trimer are kept
+- photosynthesis: converts dimers into trimers by capturing photons and monomers 
+- energy storage: contains long polymers which can be readily built up or broken down to store or release trimers
 - cillia: allows the cell to actively move
+- connectors: allows the cell to connect its cytoplasm to a neighbouring cell's and actively push or pull cytoplasm through the connection
 
 ### Photosynthesis Reaction
 In this reaction occuring in the photosynthesis organelle one photon is absorbed and converts a dimer and a monomer into a trimer:
@@ -38,3 +38,8 @@ A polymer releases 3 monomers in the form of a trimer, n >= 6:
 
   M<sub>n</sub> &rarr; M<sub>n-3</sub> + M<sub>3</sub>
 
+### Control System
+Each cell has a neural network controlling how much effort it makes to build up each ctype of organelle, and if it activates cell movement or cytoplasm transport, and whether it divides. Each cell has an orientation and can rotate, and when it divides it tries to occupy an adjacent cell in a particular direction. Cell division could be triggered by reaching a certain size or by a control state trigger.
+
+### Organelle Growth
+The control system determines how much effort is allocated to growing or shrinking each of the organelle types. The rate of growth is the effort scaled by the aount of available trimer in the cytoplasm, which gets converted into dimer when consumed. The cell dies if the cytoplasm goes below a certain fraction of the cell volume.
