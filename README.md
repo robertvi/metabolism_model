@@ -11,3 +11,5 @@ This is a two dimensional grid of squares, where biological cells can exist and 
 In this reaction a cell capable of photosynthesis absorbs one photon and converts a dimer and monomer into a trimer:
 
  M<sub>2</sub> + M + photon &rarr; M<sub>3</sub>
+
+In this notation M represents a single monomer chemical building block, M<sub>2</sub> means two monomers chemically bonded together (called a dimer) and M<sub>3</sub> represent three bonded together (you guessed it, a trimer). More generally a long chain on n monomers bonded together, called a polymer, would be shown as M<sub>n</sub>.
